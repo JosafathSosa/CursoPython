@@ -2,7 +2,7 @@
 my_tupla = tuple()
 my_other_tuple = ()
 
-my_tupla = (21, 1.70, "Josafath","Sosa")
+my_tupla = (21, 1.70, "Josafath", "Sosa")
 
 
 print(my_tupla)
@@ -13,6 +13,6 @@ print(my_tupla.count("Josafath"))
 print(my_tupla.index("Josafath"))
 
 my_tupla = list(my_tupla)
-my_tupla[3] = "Jimenez"
-my_tupla.insert(7, "PetConnect")
+
+my_tupla.insert(0, "PetConnect")
 print(my_tupla)
