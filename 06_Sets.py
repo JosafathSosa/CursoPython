@@ -17,9 +17,9 @@ print("Sosa" in my_other_set)
 my_other_set.remove(21)
 print(my_other_set)
 
-#my_other_set.clear()
+# my_other_set.clear()
 
 my_new_set = my_other_set.union(my_set)
 print(my_new_set)
 
-#del my_other_set //elimina toda la propiedad
+# del my_other_set //elimina toda la propiedad
